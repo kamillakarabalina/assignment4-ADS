@@ -88,9 +88,9 @@ Graphs tested:
 
 | Graph Size | BFS Time (ns) | DFS Time (ns) |
 |------------|---------------|---------------|
-| 10         | ...           | ...           |
-| 30         | ...           | ...           |
-| 100        | ...           | ...           |
+| 10         | 4732700       | 376700        |
+| 30         | 619400        | 617400        |
+| 100        | 3736700       | 1767100       |
 
 ### Observations:
 - Execution time increases with graph size
