@@ -1,6 +1,7 @@
 import java.util.*;
 
 public class Graph {
+
     private Map<Integer, List<Integer>> adjList = new HashMap<>();
 
     public void addVertex(Vertex v) {
@@ -14,7 +15,8 @@ public class Graph {
     }
 
     public void printGraph() {
-        for (int key : adjList.keySet()) {
+        System.out.println("Graph Structure:");
+        for (Integer key : adjList.keySet()) {
             System.out.println(key + " -> " + adjList.get(key));
         }
     }
