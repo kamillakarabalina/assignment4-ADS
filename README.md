@@ -133,7 +133,7 @@ Execution time comparison between BFS and DFS.
 ### 5. Large Graph Output
 Traversal results for a larger graph.
 
-![Large Graph](docs/screenshots/Large Graph Output.png)
+![Large Graph](docs/screenshots/large_graph.png)
 
 ---
 
